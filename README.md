@@ -17,9 +17,8 @@ På VSC:
 2. Åpne filen `index.html` med "show preview" eller "Go live"
 
 På Github:
-1. 
-2. 
-3. 
+1. Åpen hvilken som helst nettleser
+2. Søk: "https://emimokykla.github.io/Lagerstyringssystem/"
 
 ## Hvilke funksjoner som er implementert
 - Legg til nye produkter med navn, kategori, pris og antall
