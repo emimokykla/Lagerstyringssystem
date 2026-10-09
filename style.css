@@ -1,0 +1,93 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f5f8;
+  color: #202938;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+section {
+  background: white;
+  padding: 24px;
+  margin: 24px 0;
+  border-radius: 12px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  max-width: 500px;
+}
+
+input, select, button {
+  font: inherit;
+  padding: 10px;
+  border: 1px solid #aab3c0;
+  border-radius: 6px;
+}
+
+button {
+  cursor: pointer;
+  background: #174ea6;
+  color: white;
+  border: none;
+  margin: 4px;
+}
+
+button:hover {
+  background: #103b80;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #f0a202;
+  outline-offset: 2px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #d9dee7;
+}
+
+th {
+  background: #e8edf5;
+}
+
+.low-stock {
+  color: #a12b20;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 10px auto;
+    padding: 12px;
+  }
+
+  section {
+    padding: 14px;
+  }
+}
